@@ -46,6 +46,7 @@ public class UserDao implements IUser{
 			pst.setInt(7, user.getAge());
 			pst.setString(8, user.getUser_role());
 			int a= pst.executeUpdate();
+			
 			if(a>0) 
 				System.out.println("Welcome to the healthcare system. Your UserId is "+user.getUserId());
 		} catch (SQLException e) {

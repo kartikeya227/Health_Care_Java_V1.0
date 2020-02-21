@@ -209,7 +209,7 @@ public class RunUi {
 					System.out.println("Enter the CenterName");
 					String cen2 = s.next();
 					System.out.println("Enter the Contact Details");
-					int contact = s.nextInt();
+					long contact = s.nextLong();
 					System.out.println("Enter the Address");
 					String address = s.next();
 					Diagnostic_center center = new Diagnostic_center(cen2, contact, address);

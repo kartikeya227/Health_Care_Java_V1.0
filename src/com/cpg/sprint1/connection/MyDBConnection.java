@@ -10,7 +10,7 @@ public class MyDBConnection {
 			     System.out.println("driver loaded");
 
 
-			con= DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","system","admin");
+			con= DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","system","admin");
 			           System.out.println("connection established");
 		}
 		 catch (SQLException e) {

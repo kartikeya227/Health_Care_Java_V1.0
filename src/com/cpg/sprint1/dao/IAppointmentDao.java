@@ -5,7 +5,14 @@ import java.util.List;
 
 import com.cpg.sprint1.entities.Appointment;
 
-public interface IAppointmentDao {
+public interface
+
+
+
+
+
+
+IAppointmentDao {
 public Appointment addAppointment(Appointment a);
 public boolean removeAppointment(Double id);
 public List<Appointment> appList(Date app_date);
